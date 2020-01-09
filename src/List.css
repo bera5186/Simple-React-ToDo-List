@@ -1,0 +1,11 @@
+.done{
+    background-color: rgb(211, 248, 211);
+}
+.not-done{
+    background-color: rgb(252, 217, 217);
+}
+
+.large{
+    width: 20px;
+    height: 20px;
+}
