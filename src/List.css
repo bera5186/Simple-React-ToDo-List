@@ -9,3 +9,9 @@
     width: 20px;
     height: 20px;
 }
+
+.card{
+    border-radius: 10px;
+box-shadow:  12px 12px 24px #c1cacd, 
+             -12px -12px 24px #ffffff;
+}

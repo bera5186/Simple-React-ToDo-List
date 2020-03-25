@@ -1,0 +1,29 @@
+.form-button {
+    background: #28A745;
+    box-shadow:  7px 7px 14px #28A745, 
+             -7px -7px 14px #ffffff;
+    outline: none;
+    border: none;
+    color: black;
+}
+
+
+
+.form-input{
+    padding: 25px;
+    background: #E3EEF1;
+    box-shadow:  7px 7px 14px #c1cacd, 
+             -7px -7px 14px #ffffff;
+    outline: none;
+    border: none;
+    color: black;
+}
+
+.form-input:active, .form-input:hover{
+    background: #E3EEF1;
+    box-shadow:  7px 7px 14px #c1cacd, 
+             -7px -7px 14px #ffffff;
+    outline: none;
+    border: none;
+    color: black;
+}
