@@ -29,12 +29,16 @@ class App extends Component {
     })
   }
 
+  updateDoneState = (id) => {
+    console.log(this.state.todos[id])
+  }
+
   render() {
     return (
       <div className="container App">
         <h1 className="text-center mt-4">Simple To-Do List</h1>
         <Add todos={ this.state.todos } addTodo={ this.addTodo }/>
-        <List  todos={ this.state.todos } deleteTodo={ this.deleteTodo }/>
+        <List  todos={ this.state.todos } deleteTodo={ this.deleteTodo } updateDoneState={ this.updateDoneState }/>
       </div>
     );
   }

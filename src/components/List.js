@@ -1,17 +1,19 @@
 import React from 'react';
 import '../List.css';
 
-function List({ todos, deleteTodo }) {
+function List({ todos, deleteTodo, updateDoneState }) {
 
     const todoDone = (event) => {
         const card = document.getElementById(event.target.id)
         
         if(event.target.checked) {
             card.classList.remove('not-done')
-            card.classList.add('done')            
+            card.classList.add('done')
+            updateDoneState(event.target.id)       
         } else {
             card.classList.remove('done')
             card.classList.add('not-done')
+            updateDoneState(event.target.id)
         }
     }
 
