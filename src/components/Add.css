@@ -1,19 +1,20 @@
 .form-button {
     background: #28A745;
-    box-shadow:  7px 7px 14px #28A745, 
+    box-shadow:  5px 5px 14px #28A745, 
              -7px -7px 14px #ffffff;
     outline: none;
     border: none;
     color: black;
-}
+} 
 
 
 
-.form-input{
+ .form-input{
     padding: 25px;
     background: #E3EEF1;
     box-shadow:  7px 7px 14px #c1cacd, 
              -7px -7px 14px #ffffff;
+
     outline: none;
     border: none;
     color: black;
@@ -26,4 +27,35 @@
     outline: none;
     border: none;
     color: black;
+    
+   
 }
+
+/* Dark Mode */ 
+
+/* .form-input{
+    padding: 25px;
+    background: #1b262c;
+    box-shadow:  7px 7px 14px #172025, 
+             -7px -7px 14px #1f2c33;
+    outline: none;
+    border: none;
+    color: whitesmoke;
+}
+
+.form-input:active, .form-input:hover{
+    
+    background: #1b262c;
+    box-shadow:  7px 7px 14px #172025, 
+             -7px -7px 14px #1f2c33;
+    outline: none;
+    border: none;
+    color: whitesmoke;
+}
+
+.form-button {
+    background: #28A745;
+    outline: none;
+    border: none;
+    color: black;
+} */

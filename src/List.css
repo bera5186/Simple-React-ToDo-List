@@ -12,6 +12,16 @@
 
 .card{
     border-radius: 10px;
-box-shadow:  12px 12px 24px #c1cacd, 
+    box-shadow:  12px 12px 24px #8d9495, 
              -12px -12px 24px #ffffff;
 }
+
+/* dark mode */
+/* .card {
+    border-radius: 10px;
+    color: whitesmoke;
+    border: solid rgb(252, 217, 217) 2px;
+    background: linear-gradient(145deg, #1d292f, #182228);
+    box-shadow:  12px 12px 24px #11181b, 
+             -12px -12px 24px #25343d;
+} */
